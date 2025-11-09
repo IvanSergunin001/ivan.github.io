@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы. Отправляем данные на сервер</title>
+</head>
+
+<html>
+<body>
+
+<form action="https://google.com" target="_blank" method="get">
+
+
+    <p>Укажите ваши данные:<input type="hidden"  name="q" value="search"></p>
+    <p>Фамилия: <input type="Text" name="last_name" size=20  value="Иван"></p>
+    <p>Имя: <input type="Text" name"name" size=20 value="Иванов"</p>
+    <p>Город: <input type="Text" name="last_name" size=20  value="Москва"></p>
+    <p>Номер телефона: <input type="tel" id="phone" name="phone" value="+7 123 456 78 90"></p>
+    <p>Почта: <input type="email" id="email" name"email" value="idontknow@gmail.com" </p>
+    
+
+    <p> Подписаться на рассылку:
+        <select name="pizza">
+            <OPTION value="да">да</OPTION>
+            <OPTION value="нет">нет</OPTION>
+    </p>
+    
+    <p>
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+</form>
+
+</body>
